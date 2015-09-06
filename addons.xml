@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.Mikeys" name="Test" version="1.0" provider-name="Mike">
-	<extension point="xbmc.addon.repository" name="Mikeys Repository">
-		<info compressed="false">http://raw.github.com/mikeywaldron/Test/addons.xml</info>
-		<checksum>http://raw.github.com//mikeywaldron/Test/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/mikeywaldron/Test/repo</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Complete hacked Apps</summary>
-		<description>Download Addon Templates</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.stalker" name="IPTV Stalker" version="1.2.0" provider-name="esxbr">
     <requires>
 		<import addon="xbmc.python" version="2.14.0"/>
@@ -30,6 +17,19 @@
 		<forum>http://iptvtalk.org/showthread.php?2514-Kodi-Stalker-video-add-on-all-platforms</forum>
 		<source>https://github.com/esxbr/plugin.video.stalker</source>
 		<email>patrick.cabral@gmail.com</email>
+	</extension>
+</addon>
+
+<addon id="repository.Mikeys" name="Test" version="1.0" provider-name="Mike">
+	<extension point="xbmc.addon.repository" name="Mikeys Repository">
+		<info compressed="false">https://github.com/mikeywaldron/Test/blob/master/addons.xml</info>
+		<checksum>https://github.com/mikeywaldron/Test/blob/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/mikeywaldron/Test/tree/master/Repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Complete hacked Apps</summary>
+		<description>Download Addon Templates</description>
+		<platform>all</platform>
 	</extension>
 </addon>
 </addons>
