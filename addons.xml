@@ -20,11 +20,11 @@
 	</extension>
 </addon>
 
-<addon id="repository.Mikeys" name="Test" version="1.0" provider-name="Mike">
+<addon id="repository.Mikeys" name="Extreme_repo" version="1.0" provider-name="Mikey">
 	<extension point="xbmc.addon.repository" name="Mikeys Repository">
 		<info compressed="false">https://raw.githubusercontent.com/mikeywaldron/Test/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/mikeywaldron/Test/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/mikeywaldron/Test/zips</datadir>
+		<datadir zip="true">https://github.com/mikeywaldron/Test/tree/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Complete hacked Apps</summary>
