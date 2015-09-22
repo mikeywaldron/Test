@@ -9,8 +9,8 @@
 	<extension point="xbmc.service" library="server.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">IPTV Stalker-rip</summary>
-		<description lang="en">IPTV Stalker-rip</description>
+		<summary lang="en">IPTV Stalker-Universal</summary>
+		<description lang="en">IPTV Stalker-Universal</description>
 		<license>GNU General Public License, v2</license>
 		<language></language>
 		<forum>http://iptvtalk.org/showthread.php?2514-Kodi-Stalker-video-add-on-all-platforms</forum>
