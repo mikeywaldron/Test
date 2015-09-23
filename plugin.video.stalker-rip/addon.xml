@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.stalker-uni" name="IPTV Stalker-uni" version="1.0.0" provider-name="M1k3">
+<addon id="plugin.video.stalker-rip" name="IPTV Stalker-rip" version="1.0.0" provider-name="xxxx">
     <requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -9,8 +9,8 @@
 	<extension point="xbmc.service" library="server.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">IPTV Stalker-uni</summary>
-		<description lang="en">IPTV Stalker-uni</description>
+		<summary lang="en">IPTV Stalker-rip</summary>
+		<description lang="en">IPTV Stalker-rip</description>
 		<license>GNU General Public License, v2</license>
 		<language></language>
 		<forum>http://iptvtalk.org/showthread.php?2514-Kodi-Stalker-video-add-on-all-platforms</forum>
