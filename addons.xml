@@ -40,9 +40,9 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="15-09-29"
+  version="15.09.29"
   name="SportsDevil"
-  provider-name="MaxMustermann">
+  provider-name="Universal Build">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.requests" />
