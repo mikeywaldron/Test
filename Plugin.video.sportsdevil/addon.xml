@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="plugin.video.SportsDevil"
-  version="15.09.28"
+  version="2015.09.28"
   name="SportsDevil"
   provider-name="MaxMustermann">
   <requires>
