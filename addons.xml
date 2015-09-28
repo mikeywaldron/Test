@@ -40,7 +40,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2015.09.28.1-C"
+  version="2015.09.28.1-D"
   name="SportsDevil"
   provider-name="Universal Build">
   <requires>
