@@ -40,7 +40,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2015-09-28"
+  version="2015.09.24.1-C"
   name="SportsDevil"
   provider-name="MaxMustermann">
   <requires>
