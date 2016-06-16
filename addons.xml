@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.futurestreams" version="3.1" name="Future Streams" provider-name="GoDev">
+    <addon id="plugin.video.futurestreams" version="3.10" name="Future Streams" provider-name="GoDev">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
