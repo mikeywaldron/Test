@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.futurestreams" version="3.0" name="Future Streams" provider-name="GoDev">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Future Streams</summary>
-        <description>IPTV - from FutureStreams.tk</description>
-        <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-        <language>en</language>
-        <platform>all</platform>
-        <source></source>
-        <email></email>
-    </extension>
-</addon>
-
 <addon id="repository.Mikeys" name="Mikeys-Repo" version="1.0" provider-name="MW">
 	<extension point="xbmc.addon.repository" name="Mikeys Repository">
 		<info compressed="false">https://raw.githubusercontent.com/mikeywaldron/Test/master/addons.xml</info>
