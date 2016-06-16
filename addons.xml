@@ -1,68 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.dextertv"
-       name="dexterTV"
-       version="1.0.5"
-       provider-name="dexter's lab">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Live Stream Popular USA/International Networks.</summary>
-    <description>
-	[COLOR red]This addon is an alternative to IPTV stalker.
-	I do not own/host any of the content found here.[/COLOR]
-	I will do my best to keep channels updated.
-	Donate links/m3u8 to dexteraddon@gmail.com
-	[COLOR yellow]Would you kindly? https://goo.gl/2oudos
-	Would you kindly? A man chooses.....[/COLOR]
-	All Credit to podgod for coding.
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.stalker" name="IPTV Stalker" version="1.2.0" provider-name="esxbr">
+    <addon id="plugin.video.futurestreams" version="3.1" name="Future Streams" provider-name="GoDev">
     <requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="server.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">IPTV Stalker</summary>
-		<description lang="en">IPTV Stalker</description>
-		<license>GNU General Public License, v2</license>
-		<language></language>
-		<forum>http://iptvtalk.org/showthread.php?2514-Kodi-Stalker-video-add-on-all-platforms</forum>
-		<source>https://github.com/esxbr/plugin.video.stalker</source>
-		<email>patrick.cabral@gmail.com</email>
-	</extension>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Future Streams</summary>
+        <description>IPTV - from FutureStreams.tk</description>
+        <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <source></source>
+        <email></email>
+    </extension>
 </addon>
 
 <addon id="repository.Mikeys" name="Mikeys-Repo" version="1.0" provider-name="MW">
 	<extension point="xbmc.addon.repository" name="Mikeys Repository">
 		<info compressed="false">https://raw.githubusercontent.com/mikeywaldron/Test/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/mikeywaldron/Test/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/mikeywaldron/Test/tree/master/zips</datadir>
+		<datadir zip="true">https://rawgit.com/mikeywaldron/Test/tree/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Top Source For All Your Needs</summary>
