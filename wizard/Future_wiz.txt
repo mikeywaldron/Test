@@ -8,7 +8,7 @@
 
 \f0\fs26 \cf0 \expnd0\expndtw0\kerning0
 name="Spartan"\
-url="https://www.dropbox.com/s/30kcenmgm8yxdvt/plugin.video.FutureInstaller0.1.0.zip?dl=0?"
-img="https://www.dropbox.com/s/za14159sm2jgcj7/FsLogo.png?dl=0"\
-fanart="https://www.dropbox.com/s/bmpwhk37xiw75pd/splash.jpg?dl=0"\
+url="https://rawgit.com/mikeywaldron/Test/master/wizard/plugin.video.FutureInstaller0.1.0.zip"
+img="https://raw.githubusercontent.com/mikeywaldron/Test/master/wizard/FsLogo.png"\
+fanart="https://raw.githubusercontent.com/mikeywaldron/Test/master/wizard/splash.jpg"\
 description="Spartan Wizard setup"}
