@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.FutureInstaller" name="FutureStreams" version="0.1.0" provider-name="FutureStreams">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">FutureStreams</summary>
+		<description lang="en">In this wizard you will find the latest Futurestreams build and app</description>
+		<disclaimer lang="en">For your premium IPTV needs.</disclaimer>
+		<forum></forum>
+		<source></source>
+		<website></website>
+		<platform>all</platform>
+	</extension>
+</addon>
