@@ -1,0 +1,12 @@
+<addon id="repository.overlordtv" name="overlordtv" version="1.0" provider-name="MW">
+	<extension point="xbmc.addon.repository" name="overlordtv">
+		<info compressed="false">https://raw.githubusercontent.com/mikeywaldron/overlordtv/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/mikeywaldron/overlordtv/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://rawgit.com/mikeywaldron/overlordtv/tree/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Top Source For All Your Needs</summary>
+		<description>Hosting File's for overlordtv </description>
+		<platform>all</platform>
+	</extension>
+</addon>
